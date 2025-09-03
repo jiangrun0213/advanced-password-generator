@@ -685,7 +685,8 @@ class AdvancedPasswordGeneratorGUI:
         for var in var_list:
             value = var.get().strip()
             if not value:
-                all_options.append([""])  # 空字符串
+                # 对于空值，返回空字符串选项
+                all_options.append([""])
                 continue
             
             if '|' in value:
