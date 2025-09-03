@@ -1,0 +1,33 @@
+# 高级密码生成器依赖库
+
+# 图形界面
+tkinter
+
+# 哈希算法
+hashlib
+
+# 国密算法
+gmssl
+
+# 迭代工具
+itertools
+
+# 多线程
+threading
+
+# 系统操作
+os
+re
+
+# 文件操作
+zipfile
+rarfile
+
+# Office文档解密
+msoffcrypto-tool
+
+# 其他工具
+subprocess
+ctypes
+sys
+time
